@@ -4,6 +4,7 @@ def pkgs = [
         'cups-pk-helper'      : 'https://anonscm.debian.org/git/users/agx/cups-pk-helper.git',
 	'gtk-vnc'             : 'https://anonscm.debian.org/git/pkg-libvirt/gtk-vnc.git',
         'krb5-auth-dialog'    : 'https://anonscm.debian.org/git/users/agx/krb5-auth-dialog.git',
+        'libosinfo'           : 'https://anonscm.debian.org/git/pkg-libvirt/libosinfo.git',
         'libvirt-glib'        : 'https://anonscm.debian.org/git/git/pkg-libvirt/libvirt-glib.git',
         'libvirt-python'      : 'https://anonscm.debian.org/git/pkg-libvirt/libvirt-python.git',
 	'nosexcover'          : 'https://anonscm.debian.org/git/users/agx/nosexcover.git',
@@ -12,8 +13,10 @@ def pkgs = [
 	'python-dateutil'     : 'https://anonscm.debian.org/git/calendarserver/python-dateutil.git',
 	'python-vobject'      : 'https://anonscm.debian.org/git/calendarserver/python-vobject.git',
         'ruby-libvirt'        : 'https://anonscm.debian.org/git/pkg-libvirt/ruby-libvirt.git',
+        'virt-manager'        : 'https://anonscm.debian.org/git/pkg-libvirt/virt-manager.git',
         'virt-top'            : 'https://anonscm.debian.org/git/pkg-ocaml-maint/packages/virt-top.git',
         'virt-viewer'         : 'https://anonscm.debian.org/git/pkg-libvirt/virt-viewer.git',
+        'virt-what'           : 'https://anonscm.debian.org/git/pkg-libvirt/virt-what.git',
        ]
 
 pkgs.each { pkg ->
