@@ -6,6 +6,7 @@ def pkgs = [
         'krb5-auth-dialog'    : 'https://anonscm.debian.org/git/users/agx/krb5-auth-dialog.git',
         'libosinfo'           : 'https://anonscm.debian.org/git/pkg-libvirt/libosinfo.git',
         'libvirt-glib'        : 'https://anonscm.debian.org/git/git/pkg-libvirt/libvirt-glib.git',
+        'libvirt'             : 'https://anonscm.debian.org/git/pkg-libvirt/libvirt.git',
         'libvirt-python'      : 'https://anonscm.debian.org/git/pkg-libvirt/libvirt-python.git',
 	'nosexcover'          : 'https://anonscm.debian.org/git/users/agx/nosexcover.git',
         'osinfo-db-tools'     : 'https://anonscm.debian.org/git/pkg-libvirt/osinfo-db-tools.git',
